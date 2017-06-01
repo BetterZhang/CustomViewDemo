@@ -73,8 +73,4 @@ public class CustomTextView1 extends TextView {
         mPaint2.setStyle(Paint.Style.FILL);
     }
 
-    @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-    }
 }
