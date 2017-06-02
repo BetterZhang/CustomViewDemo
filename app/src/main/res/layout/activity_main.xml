@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,5 +23,19 @@
         android:layout_marginTop="10dp"
         android:text="Custom View 2"/>
 
+    <com.jsdttec.customviewdemo.view.MyTopBar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        custom:_title="自定义标题"
+        custom:_titleTextColor="#123412"
+        custom:_titleTextSize="10sp"
+        custom:leftText="Back"
+        custom:leftBackground="@color/colorPrimary"
+        custom:leftTextColor="#ffffff"
+        custom:rightBackground="@color/colorPrimary"
+        custom:rightText="More"
+        custom:rightTextColor="#ffffff"/>
 
 </LinearLayout>
