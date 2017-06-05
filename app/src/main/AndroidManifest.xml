@@ -18,6 +18,9 @@
         <activity android:name=".ui.CircleProgressActivity">
 
         </activity>
+        <activity android:name=".ui.LearnViewActivity">
+
+        </activity>
     </application>
 
 </manifest>

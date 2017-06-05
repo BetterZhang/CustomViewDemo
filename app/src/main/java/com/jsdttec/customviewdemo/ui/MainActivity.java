@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.Toast;
 import com.jsdttec.customviewdemo.R;
 import com.jsdttec.customviewdemo.view.MyTopBar;
 
@@ -23,13 +22,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void leftClick() {
 //                Toast.makeText(MainActivity.this, "left", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainActivity.this, CircleProgressActivity.class);
+                Intent intent = new Intent(MainActivity.this, LearnViewActivity.class);
                 startActivity(intent);
             }
 
             @Override
             public void rightClick() {
-                Toast.makeText(MainActivity.this, "right", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this, "right", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, CircleProgressActivity.class);
+                startActivity(intent);
             }
         });
 
