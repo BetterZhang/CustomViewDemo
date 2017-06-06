@@ -3,8 +3,9 @@ package com.jsdttec.customviewdemo.ui;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.FrameLayout;
+
 import com.jsdttec.customviewdemo.R;
-import com.jsdttec.customviewdemo.view.MyView1;
+import com.jsdttec.customviewdemo.view.MyView2;
 
 /**
  * Created by Android Studio.
@@ -24,6 +25,7 @@ public class LearnViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_learn_view);
 
         root = (FrameLayout) findViewById(R.id.root);
-        root.addView(new MyView1(LearnViewActivity.this));
+//        root.addView(new MyView1(LearnViewActivity.this));
+        root.addView(new MyView2(LearnViewActivity.this));
     }
 }
