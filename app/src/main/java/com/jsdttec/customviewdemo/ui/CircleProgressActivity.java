@@ -3,6 +3,7 @@ package com.jsdttec.customviewdemo.ui;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import com.jsdttec.customviewdemo.R;
+import com.jsdttec.customviewdemo.view.CircleProgressView;
 
 /**
  * Created by Android Studio.
@@ -18,7 +19,7 @@ public class CircleProgressActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_circle_progress);
-//        CircleProgressView circle = (CircleProgressView) findViewById(R.id.circle);
-//        circle.setSweepValue(70);
+        CircleProgressView circle = (CircleProgressView) findViewById(R.id.circle);
+        circle.setSweepValue(70);
     }
 }
