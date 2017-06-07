@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void rightClick() {
 //                Toast.makeText(MainActivity.this, "right", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainActivity.this, CircleProgressActivity.class);
+//                Intent intent = new Intent(MainActivity.this, CircleProgressActivity.class);
+                Intent intent = new Intent(MainActivity.this, VolumeViewActivity.class);
                 startActivity(intent);
             }
         });

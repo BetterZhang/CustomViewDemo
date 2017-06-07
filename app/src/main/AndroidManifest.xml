@@ -21,6 +21,9 @@
         <activity android:name=".ui.LearnViewActivity">
 
         </activity>
+        <activity android:name=".ui.VolumeViewActivity">
+
+        </activity>
     </application>
 
 </manifest>
