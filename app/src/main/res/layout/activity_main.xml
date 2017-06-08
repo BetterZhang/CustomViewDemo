@@ -38,4 +38,11 @@
         custom:rightText="More"
         custom:rightTextColor="#ffffff"/>
 
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EventIntercept"
+        android:layout_marginTop="10dp"/>
+
 </LinearLayout>

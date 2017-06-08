@@ -24,6 +24,9 @@
         <activity android:name=".ui.VolumeViewActivity">
 
         </activity>
+        <activity android:name=".ui.TestEventActivity">
+
+        </activity>
     </application>
 
 </manifest>
